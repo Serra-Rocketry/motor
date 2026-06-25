@@ -4,6 +4,32 @@
 
 Repositório de documentação técnica da equipe Serra Rocketry para motores de foguetes: desenhos CAD, especificações, dados de testes estáticos e simulações OpenMotor. Contém apenas documentação — nenhum código executável.
 
+## Fronteira de Responsabilidade
+
+Este repositório é a **fonte de verdade para geometria e dados brutos de motores**.
+
+**Este repo contém:**
+- CAD (.SLDPRT, .SLDASM, .SLDDRW, .STL, .STEP)
+- Dados brutos de teste estático (.txt do SD card)
+- Simulações OpenMotor (.ric)
+- Gráficos simples de validação (thrust/pressão x tempo)
+- Imagens e GIFs de testes
+- Documentação técnica dos motores (.md)
+
+**Este repo NÃO contém (vai para analysis/flight-computer/etc):**
+- Análises processadas de voo
+- Biblioteca de motores (app web)
+- Simulações de trajetória
+- Computador de bordo
+- Análises estatísticas avançadas
+
+**Se o usuário pedir para adicionar dados de análise sofisticada**, guiar para o repositório [analysis](https://github.com/Serra-Rocketry/analysis).
+
+**Referências:**
+- [analysis](https://github.com/Serra-Rocketry/analysis) — app Flask de análise e biblioteca de motores
+- [flight-computer](https://github.com/Serra-Rocketry/flight-computer) — computador de bordo
+- [thrust-stand](https://github.com/Serra-Rocketry/thrust-stand) — sistema de aquisição de dados
+
 ## Estrutura do Repositório
 
 ```

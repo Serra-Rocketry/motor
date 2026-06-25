@@ -8,6 +8,35 @@ Este repositório contém a documentação técnica dos motores desenvolvidos pe
 
 > **Nota:** O sistema de aquisição de dados (firmware, hardware, calibração) fica no repositório [thrust-stand](https://github.com/Serra-Rocketry/thrust-stand). Este repo armazena apenas os dados coletados e a documentação dos motores.
 
+## Fronteira de Responsabilidade
+
+Este repositório (`motor`) contém a **documentação da propulsão** e é a **fonte de verdade para geometria e dados brutos de motores**.
+
+**Este repo contém:**
+- Geometria do motor (CAD: .SLDPRT, .SLDASM, .SLDDRW, .STL, .STEP)
+- Dados brutos de teste estático (.txt do SD card)
+- Simulações OpenMotor (.ric)
+- Gráficos simples de validação (thrust/pressão x tempo)
+- Imagens e GIFs de testes
+- Documentação técnica dos motores (.md)
+
+**Este repo NÃO contém:**
+- Análises sofisticadas de voo → [analysis](https://github.com/Serra-Rocketry/analysis)
+- Biblioteca de motores (app web) → [analysis](https://github.com/Serra-Rocketry/analysis)
+- Computador de bordo → [flight-computer](https://github.com/Serra-Rocketry/flight-computer)
+- Simulações de trajetória → [analysis](https://github.com/Serra-Rocketry/analysis)
+
+**Diagrama:**
+```
+[motor] ──dados brutos──→ [analysis] ──→ app web, biblioteca
+   │                           │
+   │ Propulsão                 │ Telemetria
+   │ - Geometria               │ - Análise de testes
+   │ - Dados SD card           │ - Simulações de voo
+   │ - CAD                     │ - Visualização
+   │ - OpenMotor (.ric)        │ - Biblioteca de motores
+```
+
 ## Estrutura
 
 ```
