@@ -179,12 +179,51 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 | Teste estufa (~35 vídeos) | ~1.9 GB | Sem nomes descritivos |
 | Reunião OpenMotor.mp4 | 145 MB | Gravação de reunião |
 
+## Batch 4 — Finalização (25/06/2026)
+
+### READMEs criados
+
+| Arquivo | Descrição |
+|---|---|
+| `docs/motors/README.md` | Visão geral dos motores e estrutura por motor |
+| `docs/rockets/README.md` | Visão geral dos foguetes |
+| `docs/propellants/README.md` | Documentação de propelentes e testes |
+| `docs/static-tests/README.md` | Dados de testes estáticos e formato dos dados |
+| `docs/nozzle/README.md` | Projeto do nozzle de cimento |
+| `docs/tools/README.md` | Ferramentas e gabaritos |
+
+### Revisão geral
+
+- Estrutura verificada: 208 arquivos em 65 diretórios
+- 27 arquivos Markdown (docs + READMEs)
+- 11 simulações OpenMotor (.ric)
+- Todos os nomes de arquivos normalizados
+- `.gitignore` funcionando (drive/ não versionado)
+
 ---
 
-## Próximos Batches (planejados)
+## Status Final
 
-| Batch | Conteúdo | Status |
+| Batch | Commit | Arquivos | Conteúdo | Data |
+|---|---|---|---|---|
+| 1 | `b455cda` | 152 | Estrutura + CAD + test data | 24/06/2026 |
+| 2 | `6f28990` | 46 | docx→md + planilhas + fotos | 24/06/2026 |
+| 3 | `5bce81e` | 12 | GIFs de testes de queima | 25/06/2026 |
+| 4 | — | 7 | READMEs + revisão | 25/06/2026 |
+| **Total** | | **217** | | |
+
+### Itens restantes no drive/ (não versionados)
+
+| Item | Tamanho | Ação futura |
 |---|---|---|
-| 2 | docx restantes + arquivos relacionados | ✅ Concluído |
-| 3 | GIFs de testes de queima | ✅ Concluído |
-| 4 | Finalização (READMEs por subdiretório, revisão geral) | Pendente |
+| Teste De Queima 10-07-2023 (5 vídeos) | ~560 MB | Ignorar (sem documentação) |
+| Teste estufa (~35 vídeos) | ~1.9 GB | Ignorar (sem nomes) |
+| Reunião OpenMotor.mp4 | 145 MB | Ignorar |
+| Eletrônica/ CAD | ~49 MB | Mover para thrust-stand |
+| testeestatico/ STEP | ~0.1 MB | Mover para thrust-stand |
+
+### Próximos passos (opcional)
+
+- Converter fotos HEIC → JPG (batch futuro, se necessário)
+- Adicionar dados dos testes de queima 10-07-2023 quando documentação estiver disponível
+- Mover arquivos de Eletrônica para o repositório thrust-stand
