@@ -145,10 +145,46 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 
 ---
 
+## Batch 3 — GIFs de testes de queima (25/06/2026)
+
+### Vídeos convertidos para GIF (320px, 8fps)
+
+10 vídeos do teste de queima 09/06/2023 convertidos para GIF. Vídeos originais (~2.1 GB) mantidos apenas no `drive/`.
+
+| Vídeo original | GIF | Tamanho |
+|---|---|---|
+| `Propelente 1 - 65% Nitrato 35% Açúcar.MOV` | `prop_1_knsu_padrao.gif` | 25 MB |
+| `Propelente 2 - 65% Nitrato 35% Açúcar.MOV` | `prop_2_knsu_coroa.gif` | 13 MB |
+| `Propelente 3 - 70% Nitrato 30% Açúcar.MOV` | `prop_3_knsu_70_30.gif` | 13 MB |
+| `Propelente 4 - 50% Nitrato 50% Açúcar.MOV` | `prop_4_50_50.gif` | 32 MB |
+| `Propelente 5 - 65% Nitrato 35% Dextrose.MOV` | `prop_5_knd.gif` | 13 MB |
+| `Dextrose part 2.MOV` | `prop_5b_dextrose_part2.gif` | 4,5 MB |
+| `Propelente 7 - ...CuFe2O4.MOV` | `prop_7_cufe2o4.gif` | 9,8 MB |
+| `Propelente 8 - ...CoFe2O4.MOV` | `prop_8_cofe2o4.gif` | 20 MB |
+| `Propelente 9 - ...NiFe2O4.MOV` | `prop_9_nife2o4.gif` | 14 MB |
+| `Propelente 10 - ...ZnFe2O4.MOV` | `prop_10_znfe2o4.gif` | 14 MB |
+
+**Total GIFs:** 155 MB (vs ~2.1 GB originais)
+
+### Documentação atualizada
+
+- `docs/propellants/teste_queima_2023-06-09.md` — reescrito com tabela, GIFs embutidos e links para dados
+- Issue #1 criada: esclarecer diferença do Propelente 2 ("jeito do coroa")
+
+### Vídeos ignorados (mantidos no drive/)
+
+| Grupo | Tamanho | Motivo |
+|---|---|---|
+| Teste De Queima 10-07-2023 (5 vídeos) | ~560 MB | Sem nomes, sem documentação |
+| Teste estufa (~35 vídeos) | ~1.9 GB | Sem nomes descritivos |
+| Reunião OpenMotor.mp4 | 145 MB | Gravação de reunião |
+
+---
+
 ## Próximos Batches (planejados)
 
 | Batch | Conteúdo | Status |
 |---|---|---|
 | 2 | docx restantes + arquivos relacionados | ✅ Concluído |
-| 3 | Mídia (GIFs de testes, fotos HEIC→jpg, vídeos selecionados) | Pendente |
+| 3 | GIFs de testes de queima | ✅ Concluído |
 | 4 | Finalização (READMEs por subdiretório, revisão geral) | Pendente |
