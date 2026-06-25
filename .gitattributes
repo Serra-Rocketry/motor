@@ -1,0 +1,33 @@
+# Git LFS - vídeos e animações
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.MOV filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.HEIC filter=lfs diff=lfs merge=lfs -text
+*.heic filter=lfs diff=lfs merge=lfs -text
+
+# SolidWorks
+*.SLDPRT binary
+*.SLDASM binary
+*.SLDDRW binary
+*.STL binary
+*.stl binary
+*.STEP binary
+*.step binary
+*.x_t binary
+
+# G-code
+*.gcode binary
+
+# OpenMotor
+*.ric text
+*.eng text
+
+# Imagens
+*.jpg binary
+*.jpeg binary
+*.JPG binary
+*.JPEG binary
+*.png binary
+*.PNG binary

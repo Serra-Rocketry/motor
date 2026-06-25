@@ -1,0 +1,26 @@
+# Drive original (backup local, não versionar)
+drive/
+
+# Binários de terceiros
+*.exe
+
+# SolidWorks - arquivos regeneráveis de simulação
+*.CWR
+*.dmp
+*.err
+*.LOG
+*.MFC
+*.BMC
+*.BD2
+*.BDF
+*.PGF
+*.sl4
+
+# SolidWorks temp
+*.sldprt.~
+*.sldasm.~
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
