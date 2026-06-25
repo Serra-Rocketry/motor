@@ -1,0 +1,45 @@
+data:
+  config:
+    ambPressure: 101324.99674500001
+    burnoutThrustThres: 0.1
+    burnoutWebThres: 2.540005e-05
+    flowSeparationWarnPercent: 0.05
+    mapDim: 750
+    maxMassFlux: 1406.4697609
+    maxPressure: 10342500.000000002
+    minPortThroat: 2.0
+    sepPressureRatio: 0.4
+    timestep: 0.03
+  grains:
+  - properties:
+      coreDiameter: 0.006
+      diameter: 0.016
+      inhibitedEnds: Both
+      length: 0.05
+    type: BATES
+  nozzle:
+    convAngle: 0.0
+    divAngle: 0.0
+    efficiency: 1.0
+    erosionCoeff: 0.0
+    exit: 0.006
+    slagCoeff: 0.0
+    throat: 0.006
+    throatLength: 0.01
+  propellant:
+    density: 1200.0
+    name: KNSU SR
+    tabs:
+    - a: 0.00022
+      k: 1.13
+      m: 41.98
+      maxPressure: 10342500.000000002
+      minPressure: 0.0
+      n: 0.235
+      t: 1720.0
+type: !!python/object/apply:uilib.fileIO.fileTypes
+- 3
+version: !!python/tuple
+- 0
+- 6
+- 0

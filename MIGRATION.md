@@ -89,9 +89,9 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 | `.CWR` simulações | ~216 MB | Regeneráveis no SolidWorks | Ignorar permanentemente |
 | `openMotor.exe` | 69 MB | Binário de terceiros | Ignorar (linkar download no README) |
 | `.dmp`, `.err`, `.LOG`, `.MFC`, `.BMC`, `.BD2`, `.BDF`, `.PGF` | ~0.5 MB | Lixo de IDE/simulação | Ignorar permanentemente |
-| `Reuniões/` (docx + png) | ~0.01 MB | Notas de reunião | Batch 4: converter para md |
+| `Reuniões/` (docx + png) | ~0.01 MB | Notas de reunião | ✅ Batch 2: convertido para md |
 | `Fotos HEIC` (testes de queima, estufa) | ~44 MB | Formato Apple, precisa converter | Batch 3: converter para jpg |
-| `Testes Propelente/` (docx + fotos + xlsx) | ~8.8 MB | Documentação de propelentes | Reorganizar depois |
+| `Testes Propelente/` (docx + fotos + xlsx) | ~8.8 MB | Documentação de propelentes | ✅ Batch 2: copiado para propellants/ |
 | `Dados Testes Estático/Dados SDcard/Motor6535.txt` | 34 B | Conteúdo: "Não Conseguimos Obter Os Dados :(" | Ignorar |
 | `Dados Testes Estático/Dados SDcard/MotorÓxidoDeFerroeMagnésio.txt` | 31 B | Conteúdo: "Não Conseguimos Pegar Dados :(" | Ignorar |
 | `SR21000/Teste Hidrostático/Mídias/` (vídeos) | ~340 MB | Vídeos de teste hidrostático | Batch 3: converter selecionados |
@@ -102,10 +102,53 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 
 ---
 
+## Batch 2 — Documentação restante (24/06/2026)
+
+### docx → md
+
+| docx original | Destino |
+|---|---|
+| `SR21000/Teste Hidrostático/Descrição do Teste.docx` | `docs/motors/sr21000/hydrostatic_test_description.md` |
+| `Motor SR21000 Inicial/Simulações/Case do motor/Tubo-Teste De Pressão Interna Tubo-1.docx` | `docs/motors/sr21000-initial/tube_pressure_simulation.md` |
+| `Testes Propelente/Teste Granulometria.../Descrição Do Teste.docx` | `docs/propellants/granulometry_test_description.md` |
+| `Reuniões/Reunião Dia 09_08_2024.docx` | `docs/meetings/2024-08-09.md` |
+| `Reuniões/Reunião 06_02_2026 (Caio e Italo).docx` | `docs/meetings/2026-02-06.md` |
+| `2026/Foguete 1000M/Documentação.docx` | `docs/rockets/1000m/documentation.md` |
+| `2026/Foguete 500M/Documentação do motor de 500m.docx` | `docs/rockets/500m/documentation.md` |
+| `2026/Eletrônica/Ignitor/Funcionamento.docx` | `docs/ignitor/funcionamento.md` |
+| `Teste De Queima 09-06-2023/Propelentes.docx` | `docs/propellants/teste_queima_2023-06-09.md` |
+| `2026/Ideias.docx` | `docs/ideas.md` |
+
+### Arquivos copiados
+
+| Arquivo | Destino |
+|---|---|
+| `SR21000/Teste Hidrostático/*.xlsx` | `docs/motors/sr21000/TESTE_HIDROSTATICO_SR21000_88bar.xlsx` |
+| `SR21000/Bulkhead_Sensor_Pressão.pdf` | `docs/motors/sr21000/drawings/Bulkhead_Sensor_Pressao.pdf` |
+| `Foguete 500M/Teste Hidrostático/*.xls` | `docs/rockets/500m/TESTE_HIDROSTATICO_500m_62bar.xls` |
+| `Teste De Queima/Dados Propelentes.xlsx` | `docs/propellants/dados_propelentes.xlsx` |
+| `Teste Reprodutibilidade/*.xlsx` | `docs/propellants/teste_reprodutibilidade.xlsx` |
+| `Teste estufa/planilha_teste_estufa.xlsx` | `docs/propellants/planilha_teste_estufa.xlsx` |
+| `Ignitor/*.pdf` (fluxogramas) | `docs/ignitor/` |
+| `Ignitor/README.md` | `docs/ignitor/README.md` |
+| `Reunião Dia 16-05-2025/*.png` | `docs/meetings/images/` |
+| `Reunião Dia 16-05-2025/*.ric` | `docs/meetings/` |
+| `SR21000/Teste Hidrostático/Mídias/` (fotos) | `docs/imagens/sr21000/hydrostatic/` |
+| `Propelentes.jpeg` (foto) | `docs/propellants/photos/` |
+
+### Novas pastas criadas
+
+- `docs/propellants/` — documentação e dados de propelentes
+- `docs/meetings/` — notas de reunião
+- `docs/ignitor/` — documentação do ignitor (pertence ao thrust-stand)
+- `docs/imagens/sr21000/hydrostatic/` — fotos do teste hidrostático
+
+---
+
 ## Próximos Batches (planejados)
 
 | Batch | Conteúdo | Status |
 |---|---|---|
-| 2 | docx restantes (reuniões, propelentes, treinamento) | Pendente |
+| 2 | docx restantes + arquivos relacionados | ✅ Concluído |
 | 3 | Mídia (GIFs de testes, fotos HEIC→jpg, vídeos selecionados) | Pendente |
 | 4 | Finalização (READMEs por subdiretório, revisão geral) | Pendente |
