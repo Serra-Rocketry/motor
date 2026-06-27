@@ -57,8 +57,8 @@ docs/
 │   ├── 1000m/             # Foguete de 1km
 │   └── commercial/        # Foguete comercial
 ├── molds/                 # Moldes para propelentes
-├── nozzle/                # Nozzle de cimento + cálculos
 ├── tools/                 # Ferramentas e gabaritos
+├── archive/               # Ideias experimentais não implementadas
 ├── imagens/               # Fotos, renderings, gráficos
 └── training/              # Documentação de treinamento
 ```
