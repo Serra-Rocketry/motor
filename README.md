@@ -48,7 +48,6 @@ docs/
 │   └── scilab/            # Projetos SciLab para análise
 ├── motors/                # Documentação por motor
 │   ├── sr21000/           # Motor principal (2025)
-│   ├── sr21000-initial/   # Versão inicial/protótipo
 │   ├── sr1500/            # Motor SR1500
 │   ├── 300m/              # Motor 300M
 │   ├── v1/                # Motor V1.0
@@ -69,7 +68,6 @@ docs/
 | Motor | Status | Descrição |
 |---|---|---|
 | SR21000 | Em desenvolvimento | Motor principal, KNSB, 21000 Ns |
-| SR21000 Inicial | Protótipo | Versão inicial do SR21000 |
 | SR1500 | Concluído | Motor de teste, 1500 Ns |
 | 300M | Concluído | Motor 300M com guiamento |
 | V1.0 | Concluído | Primeiro motor da equipe |

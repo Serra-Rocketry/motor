@@ -7,7 +7,6 @@ Documentação CAD e especificações dos motores desenvolvidos pela Serra Rocke
 | Motor | Status | Propulsante | Empuxo | Arquivos |
 |---|---|---|---|---|
 | [SR21000](./sr21000/) | Em desenvolvimento | KNSB | 21000 Ns | CAD, desenhos, OpenMotor, STL, Parasolid |
-| [SR21000 Inicial](./sr21000-initial/) | Protótipo | KNSB | — | CAD, OpenMotor |
 | [SR1500](./sr1500/) | Concluído | KNSU | 1500 Ns | CAD, desenhos, OpenMotor, STL, gcode |
 | [300M](./300m/) | Concluído | KNSU | — | CAD, STL, gcode |
 | [V1](./v1/) | Concluído | KNSU | — | CAD |
