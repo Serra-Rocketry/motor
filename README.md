@@ -120,6 +120,7 @@ Este projeto segue as [Boas Práticas da Serra Rocketry](https://github.com/Serr
 ## Links
 
 - [Thrust Stand](https://github.com/Serra-Rocketry/thrust-stand) — Sistema de aquisição de dados
+- [Ignitor](https://github.com/Serra-Rocketry/ignitor) — Sistema de ignição remota
 - [Best Practices](https://github.com/Serra-Rocketry/best-practices) — Boas práticas da equipe
 - [MIGRATION.md](./MIGRATION.md) — Histórico de migração do Drive
 
