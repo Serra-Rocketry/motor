@@ -78,8 +78,10 @@ Cada motor tem subpastas conforme aplicável:
 - Imagens ficam em `docs/motors/{motor}/images/`
 - Renderings SolidWorks: nome descritivo, ex: `render_sr21000.jpg`
 - Capturas de tela: em subpasta `capturas/`
+- **Tamanho máximo: 500 KB por imagem** (regra das Boas Práticas)
 - Comprimir antes de commitar: `convert input.jpg -resize 1200x -quality 80 -strip output.jpg`
 - Embed no markdown: `![Descrição](./images/render.jpg)`
+- Layout em docs: HTML tables para imagens lado a lado (3 por linha, 300px width), imagens isoladas em 300px
 
 ## Dados de Teste Estático
 
