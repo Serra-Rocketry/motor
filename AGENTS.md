@@ -37,7 +37,6 @@ docs/
 ├── static-tests/      # Dados brutos e gráficos de testes estáticos
 ├── motors/            # CAD e documentação por motor
 │   ├── sr21000/       # Motor principal (final)
-│   ├── sr21000-initial/  # Versão inicial/protótipo
 │   ├── sr1500/
 │   ├── 300m/
 │   ├── v1/
@@ -49,7 +48,6 @@ docs/
 ├── molds/             # Moldes (STEP)
 ├── nozzle/            # Nozzle de cimento + cálculos
 ├── tools/             # Ferramentas e gabaritos
-├── imagens/           # Fotos, renderings e gráficos
 └── training/          # Documentação de treinamento
 ```
 
@@ -73,14 +71,15 @@ Cada motor tem subpastas conforme aplicável:
 | `stl/` | `.STL` para impressão 3D |
 | `parasolid/` | `.x_t` (formato Parasolid para interop) |
 | `gcode/` | `.gcode` para impressão 3D |
+| `images/` | Fotos, renderings e gráficos do motor |
 
 ## Convenções de Imagens
 
-- Imagens ficam em `docs/imagens/{motor}/`
+- Imagens ficam em `docs/motors/{motor}/images/`
 - Renderings SolidWorks: nome descritivo, ex: `Render_SR21000.jpg`
 - Capturas de tela: em subpasta `capturas/`
 - Comprimir antes de commitar: `convert input.jpg -resize 1200x -quality 80 -strip output.jpg`
-- Embed no markdown: `![Descrição](./imagens/sr21000/render.jpg)`
+- Embed no markdown: `![Descrição](./images/render.jpg)`
 
 ## Dados de Teste Estático
 

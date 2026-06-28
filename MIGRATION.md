@@ -36,7 +36,7 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 | `Motor SR1500/Openmotor e Desenhos Técnicos/Motor SR1500.ric` | `docs/motors/sr1500/openmotor/` | 1 |
 | `Motor SR1500/Componentes/GUIAALMA10MM.STL` | `docs/motors/sr1500/stl/` | 1 |
 | `Motor SR1500/Componentes/CE3E3V2_GUIAALMA10MM.gcode` | `docs/motors/sr1500/gcode/` | 1 |
-| `Motor SR1500/O_Ring .jpeg` | `docs/imagens/sr1500/o_ring.jpg` | 1 |
+| `Motor SR1500/O_Ring .jpeg` | `docs/motors/sr1500/images/o_ring.jpg` | 1 |
 | `SR21000/` (top-level CAD) | `docs/motors/sr21000/cad/` | 21 |
 | `SR21000/Desenhos Tecnicos/` | `docs/motors/sr21000/drawings/` | 6 |
 | `SR21000/*.ric` | `docs/motors/sr21000/openmotor/` | 3 |
@@ -44,9 +44,9 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 | `SR21000/*.x_t` | `docs/motors/sr21000/parasolid/` | 3 |
 | `SR21000/Inibidor/CE3E3V2_MoldeInibidor.gcode` | `docs/motors/sr21000/gcode/` | 1 |
 | `SR21000/Molde Prensagem/` | `docs/motors/sr21000/cad/` | 2 |
-| `SR21000/Fotos e Informações/*.jpg` | `docs/imagens/sr21000/` | 2 |
-| `SR21000/Fotos e Informações/captura*.png` | `docs/imagens/sr21000/capturas/` | 4 |
-| `SR21000/Teste Hidrostático/Gráfico_*.png` | `docs/imagens/sr21000/` | 1 |
+| `SR21000/Fotos e Informações/*.jpg` | `docs/motors/sr21000/images/` | 2 |
+| `SR21000/Fotos e Informações/captura*.png` | `docs/motors/sr21000/images/capturas/` | 4 |
+| `SR21000/Teste Hidrostático/Gráfico_*.png` | `docs/motors/sr21000/images/` | 1 |
 | `Motor SR21000 Inicial/` CAD | `docs/motors/sr21000-initial/cad/` | 4 |
 | `Motor SR21000 Inicial/*.ric` | `docs/motors/sr21000-initial/openmotor/` | 2 |
 | `Motor SR21000 Inicial/Fotos/` | `docs/imagens/sr21000-initial/` | 6 |
@@ -133,7 +133,7 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 | `Ignitor/README.md` | `docs/ignitor/README.md` |
 | `Reunião Dia 16-05-2025/*.png` | `docs/meetings/images/` |
 | `Reunião Dia 16-05-2025/*.ric` | `docs/meetings/` |
-| `SR21000/Teste Hidrostático/Mídias/` (fotos) | `docs/imagens/sr21000/hydrostatic/` |
+| `SR21000/Teste Hidrostático/Mídias/` (fotos) | `docs/motors/sr21000/images/hydrostatic/` |
 | `Propelentes.jpeg` (foto) | `docs/propellants/photos/` |
 
 ### Novas pastas criadas
@@ -141,7 +141,7 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 - `docs/propellants/` — documentação e dados de propelentes
 - `docs/meetings/` — notas de reunião
 - `docs/ignitor/` — documentação do ignitor (pertence ao thrust-stand)
-- `docs/imagens/sr21000/hydrostatic/` — fotos do teste hidrostático
+- `docs/motors/sr21000/images/hydrostatic/` — fotos do teste hidrostático
 
 ---
 
