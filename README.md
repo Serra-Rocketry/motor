@@ -63,6 +63,12 @@ docs/
 └── training/              # Documentação de treinamento
 ```
 
+## Competições
+
+| Motor | Competição | Missão | Categoria | Ano | Resultado |
+|---|---|---|---|---|---|
+| SR21000 | [LASC 2025](https://www.lasc.space/past-events/6th-lasc) | SR Couto | 1 km – SRM | 2025 | 11º lugar, Major Damage |
+
 ## Como Usar
 
 ### Abrir arquivos CAD
