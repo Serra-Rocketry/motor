@@ -7,8 +7,8 @@ Dados brutos e gráficos de testes estáticos de motores de foguete.
 | Motor | Dados | Gráfico | SciLab |
 |---|---|---|---|
 | [Motor Gabriel](./motor-gabriel/) | [data.txt](./motor-gabriel/data.txt) | — | — |
-| [Motor Caramelo](./motor-caramelo/) | [data.txt](./motor-caramelo/data.txt) | [graph.jpg](./motor-caramelo/graph.jpg) | [motor_caramelo.sciprj](./scilab/motor_caramelo.sciprj) |
-| Motor I (69-31 Grãos torrados) | — | [graph.jpg](./motor-i/graph.jpg) | [motor_i.sciprj](./scilab/motor_i.sciprj) |
+| [Motor Caramelo](./motor-caramelo/) | [data.txt](./motor-caramelo/data.txt) | [empuxo_pressao.jpg](./motor-caramelo/empuxo_pressao.jpg) | [motor_caramelo.sciprj](./scilab/motor_caramelo.sciprj) |
+| Motor I (69-31 Grãos torrados) | — | [empuxo_pressao.jpg](./motor-i/empuxo_pressao.jpg) | [motor_i.sciprj](./scilab/motor_i.sciprj) |
 
 ## Formato dos Dados
 

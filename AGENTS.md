@@ -76,7 +76,7 @@ Cada motor tem subpastas conforme aplicável:
 ## Convenções de Imagens
 
 - Imagens ficam em `docs/motors/{motor}/images/`
-- Renderings SolidWorks: nome descritivo, ex: `Render_SR21000.jpg`
+- Renderings SolidWorks: nome descritivo, ex: `render_sr21000.jpg`
 - Capturas de tela: em subpasta `capturas/`
 - Comprimir antes de commitar: `convert input.jpg -resize 1200x -quality 80 -strip output.jpg`
 - Embed no markdown: `![Descrição](./images/render.jpg)`
@@ -84,7 +84,7 @@ Cada motor tem subpastas conforme aplicável:
 ## Dados de Teste Estático
 
 - Dados brutos do SD card: `docs/static-tests/{motor}/data.txt`
-- Gráficos: `docs/static-tests/{motor}/graph.jpg`
+- Gráficos: `docs/static-tests/{motor}/empuxo_pressao.jpg`
 - Projetos SciLab: `docs/static-tests/scilab/`
 - Os dados do thrust-stand (sistema de aquisição) ficam no repo [Serra-Rocketry/thrust-stand](https://github.com/Serra-Rocketry/thrust-stand)
 

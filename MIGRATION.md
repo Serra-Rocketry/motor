@@ -28,8 +28,8 @@ Nomes de arquivos e pastas foram normalizados para compatibilidade com Git:
 |---|---|---|
 | `Dados Testes Estático/Dados SDcard/MotorGabriel.txt` | `docs/static-tests/motor-gabriel/data.txt` | 1 |
 | `Dados Testes Estático/Dados SDcard/MotorCaramelo.txt` | `docs/static-tests/motor-caramelo/data.txt` | 1 |
-| `Dados Testes Estático/Gráficos/Motor I (69-31...).jpg` | `docs/static-tests/motor-i/graph.jpg` | 1 |
-| `Dados Testes Estático/Gráficos/Motor Caramelo (65-35).jpg` | `docs/static-tests/motor-caramelo/graph.jpg` | 1 |
+| `Dados Testes Estático/Gráficos/Motor I (69-31...).jpg` | `docs/static-tests/motor-i/empuxo_pressao.jpg` | 1 |
+| `Dados Testes Estático/Gráficos/Motor Caramelo (65-35).jpg` | `docs/static-tests/motor-caramelo/empuxo_pressao.jpg` | 1 |
 | `Dados Testes Estático/Gráficos/*.sciprj` | `docs/static-tests/scilab/` | 2 |
 | `Motor SR1500/Componentes/` | `docs/motors/sr1500/cad/` | 8 |
 | `Motor SR1500/Openmotor e Desenhos Técnicos/` | `docs/motors/sr1500/drawings/` | 3 |
