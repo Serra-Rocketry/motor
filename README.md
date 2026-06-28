@@ -63,16 +63,6 @@ docs/
 └── training/              # Documentação de treinamento
 ```
 
-## Motores
-
-| Motor | Status | Descrição |
-|---|---|---|
-| SR21000 | Em desenvolvimento | Motor principal, KNSB, 21000 Ns |
-| SR1500 | Concluído | Motor de teste, 1500 Ns |
-| 300M | Concluído | Motor 300M com guiamento |
-| V1.0 | Concluído | Primeiro motor da equipe |
-| Cardboard | Concluído | Motor de papelão (teste) |
-
 ## Como Usar
 
 ### Abrir arquivos CAD
